@@ -11,17 +11,6 @@ import com.cursosant.android.stores.R
 import com.cursosant.android.stores.common.entities.StoreEntity
 import com.cursosant.android.stores.databinding.ItemStoreBinding
 
-/****
- * Project: Stores
- * From: com.cursosant.android.stores
- * Created by Alain Nicolás Tello on 26/11/20 at 13:25
- * Course: Android Practical with Kotlin from zero.
- * Only on: https://www.udemy.com/course/kotlin-intensivo/
- * All rights reserved 2021.
- *
- * All my Courses(Only on Udemy):
- * https://www.udemy.com/user/alain-nicolas-tello/
- ***/
 class StoreAdapter(private var stores: MutableList<StoreEntity>, private var listener: OnClickListener) :
     RecyclerView.Adapter<StoreAdapter.ViewHolder>() {
 

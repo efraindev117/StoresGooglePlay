@@ -6,17 +6,6 @@ import androidx.lifecycle.ViewModel
 import com.cursosant.android.stores.common.entities.StoreEntity
 import com.cursosant.android.stores.mainModule.model.MainInteractor
 
-/****
- * Project: Stores
- * From: com.cursosant.android.stores.mainModule.viewModel
- * Created by Alain Nicolás Tello on 2/4/21 at 11:44 AM
- * Course: Android Practical with Kotlin from zero.
- * Only on: https://www.udemy.com/course/kotlin-intensivo/
- * All rights reserved 2021.
- *
- * All my Courses(Only on Udemy):
- * https://www.udemy.com/user/alain-nicolas-tello/
- ***/
 class MainViewModel: ViewModel() {
     private var storeList: MutableList<StoreEntity>
     private var interactor: MainInteractor

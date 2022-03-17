@@ -17,18 +17,6 @@ import com.cursosant.android.stores.mainModule.adapter.StoreAdapter
 import com.cursosant.android.stores.mainModule.viewModel.MainViewModel
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 
-/****
- * Project: Stores
- * From: com.cursosant.android.stores.mainModule.model
- * Created by Alain Nicolás Tello on 2/4/21 at 12:06 PM
- * Course: Android Practical with Kotlin from zero.
- * Only on: https://www.udemy.com/course/kotlin-intensivo/
- * All rights reserved 2021.
- *
- * All my Courses(Only on Udemy):
- * https://www.udemy.com/user/alain-nicolas-tello/
- ***/
-
 class MainActivity : AppCompatActivity(), OnClickListener {
 
     private lateinit var mBinding: ActivityMainBinding
